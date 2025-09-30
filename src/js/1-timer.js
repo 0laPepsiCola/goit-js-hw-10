@@ -24,7 +24,7 @@ const options = {
       iziToast.error({
         theme: 'dark',
         color: '#ef4040',
-        iconUrl: 'assets/img/bi_x-octagon.svg',
+        iconUrl: 'src/img/bi_x-octagon.svg',
         iconColor: '#fff',
         titleColor: '#fff',
         title: 'Error',

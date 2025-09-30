@@ -12,7 +12,7 @@ form.addEventListener('submit', event => {
       iziToast.success({
         theme: 'dark',
         color: '#59a10d',
-        iconUrl: 'assets/img/bi_check2-circle.svg',
+        iconUrl: 'src/img/bi_check2-circle.svg',
         iconColor: '#fff',
         titleColor: '#fff',
         title: 'OK',
@@ -25,7 +25,7 @@ form.addEventListener('submit', event => {
       iziToast.error({
         theme: 'dark',
         color: '#ef4040',
-        iconUrl: 'assets/img/bi_x-octagon.svg',
+        iconUrl: 'src/img/bi_x-octagon.svg',
         iconColor: '#fff',
         titleColor: '#fff',
         title: 'Error',
