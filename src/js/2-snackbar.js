@@ -1,5 +1,7 @@
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import xOctagonIcon from '../img/bi_x-octagon.svg';
+import check2CircleIcon from '../img/bi_check2-circle.svg';
 
 const form = document.querySelector('.form');
 
@@ -12,7 +14,7 @@ form.addEventListener('submit', event => {
       iziToast.success({
         theme: 'dark',
         color: '#59a10d',
-        iconUrl: 'img/bi_check2-circle.svg',
+        iconUrl: check2CircleIcon,
         iconColor: '#fff',
         titleColor: '#fff',
         title: 'OK',
@@ -25,7 +27,7 @@ form.addEventListener('submit', event => {
       iziToast.error({
         theme: 'dark',
         color: '#ef4040',
-        iconUrl: 'img/bi_x-octagon.svg',
+        iconUrl: xOctagonIcon,
         iconColor: '#fff',
         titleColor: '#fff',
         title: 'Error',

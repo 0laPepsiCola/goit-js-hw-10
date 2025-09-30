@@ -2,6 +2,7 @@ import flatpickr from 'flatpickr';
 import 'flatpickr/dist/flatpickr.min.css';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
+import xOctagonIcon from '../img/bi_x-octagon.svg';
 
 const startBtn = document.querySelector('[data-start]');
 const dateInput = document.querySelector('#datetime-picker');
@@ -24,7 +25,7 @@ const options = {
       iziToast.error({
         theme: 'dark',
         color: '#ef4040',
-        iconUrl: 'img/bi_x-octagon.svg',
+        iconUrl: xOctagonIcon,
         iconColor: '#fff',
         titleColor: '#fff',
         title: 'Error',
